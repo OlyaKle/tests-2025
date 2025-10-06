@@ -88,7 +88,7 @@ def test_is_prime(number, expected):
     assert is_prime(number) == expected
 ```
 Результаты тестов выведены на консоль
-![Запуск тестов](https://github.com/OlyaKle/tests-2025/blob/main/консоль%20при%20запуске%20тестов.jpg)
+![Запуск тестов]([https://github.com/OlyaKle/tests-2025/blob/main/консоль%20при%20запуске%20тестов.jpg](https://github.com/OlyaKle/tests-2025/blob/main/запуск-тестов.jpg))
 ### Code coverage 
 Для проверки качества тестов был установлен пакет pytest pytest-cov и запущены тесты с *code coverage* следующими командами.
 ```
