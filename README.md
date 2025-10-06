@@ -87,8 +87,9 @@ def test_is_prime(number, expected):
     # Act и Assert
     assert is_prime(number) == expected
 ```
-Результаты тестов выведены на консоль
-<img src="https://github.com/OlyaKle/tests-2025/blob/main/консоль%20при%20запуске%20тестов.jpg" width="500" alt="Запуск тестов">
+Результаты тестов выведены на консоль на картинке.
+
+<img src="https://github.com/OlyaKle/tests-2025/blob/main/запуск-тестов.jpg" width="500" alt="Запуск тестов">
 
 ### Code coverage 
 Для проверки качества тестов был установлен пакет pytest pytest-cov и запущены тесты с *code coverage* следующими командами.
@@ -97,4 +98,5 @@ pip install pytest pytest-cov
 pytest --cov=small_project test_sm_project.py
 ```
 Результат тестов и метрика *code coverage* на картинке ниже.
-![Запуск тестов с code coverage](запуск code coverage и получение метрики.jpg)
+
+<img src="https://github.com/OlyaKle/tests-2025/blob/main/запуск-тестов-с-code%20coverage.jpg" width="500" alt="Запуск тестов с code coverage">
