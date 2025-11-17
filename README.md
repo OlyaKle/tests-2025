@@ -65,20 +65,39 @@ POST используется для отправки данных, которы
 ### Написание тестов
 #### тест 1 - проверка успешности вычислений через API
 `test_calculation_flow_success` - проверяет базовую интеграцию: API → валидация → калькулятор → ответ
-<img src="https://github.com/OlyaKle/tests-2025/blob/main/запуск-тестов.jpg" width="500" alt="тест1">
+
+<img src="https://github.com/OlyaKle/tests-2025/blob/lab2/тест1.jpg" align="center" width="350" alt="тест1">
 
 #### тест 2 - проверка интеграции всех мат операций
 `test_all_operations_integration` - тестирует взаимодействие всех модулей для разных операций, проверяет согласованность системы
 
+<img src="https://github.com/OlyaKle/tests-2025/blob/lab2/тест2.jpg" align="center" width="350" alt="тест2">
+
 #### тест 3 - проверка потока обработки ошибки деления на ноль
 `test_division_by_zero_error_flow` - критически важный тест, проверяющий как ошибка из модуля калькулятора проходит через все слои и корректно обрабатывается
+
+<img src="https://github.com/OlyaKle/tests-2025/blob/lab2/тест3.jpg" align="center" width="350" alt="тест3">
 
 #### тест 4 - проверка интеграции модуля валидации с API
 `test_validation_integration` - проверяет интеграцию модуля валидации с API, что особенно важно для безопасности
 
+<img src="https://github.com/OlyaKle/tests-2025/blob/lab2/тест4.jpg" align="center" width="350" alt="тест4">
+
 #### тест 5 - проверка обработки недопустимой операции
 `test_invalid_operation_flow` - тестирует обработку некорректных входных данных на уровне всей системы
 
+<img src="https://github.com/OlyaKle/tests-2025/blob/lab2/тест5.jpg" align="center" width="350" alt="тест5">
+
+### Пример работы и результаты тестов
+При запуске `app.py` на консоли выводится следующее
+
+<img src="https://github.com/OlyaKle/tests-2025/blob/lab2/отработка-на-консоли.jpg" align="center" width="350" alt="консоль">
+
+При переходе по сгенерированному url отображается простой калькулятор, ниже приведены примеры отработки при пропуске поля и при попытке деления на 0.
+
+<img src="https://github.com/OlyaKle/tests-2025/blob/lab2/пропуск-поля.jpg" align="center" width="350" alt="пропуск">
+
+<img src="https://github.com/OlyaKle/tests-2025/blob/lab2/6-делить-0.jpg" align="center" width="350" alt="деление0">
 Результаты тестов выведены на консоль на картинке.
 
 <img src="https://github.com/OlyaKle/tests-2025/blob/main/запуск-тестов.jpg" width="500" alt="Запуск тестов">
